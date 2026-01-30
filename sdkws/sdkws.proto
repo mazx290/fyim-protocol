@@ -473,6 +473,9 @@ message UserCommandDeleteTips {
   string fromUserID = 1;
   string toUserID = 2;
 }
+message UserAccountDeletedTips {
+  string userID = 1;
+}
 
 //////////////////////conversation/////////////////////
 message ConversationUpdateTips {
